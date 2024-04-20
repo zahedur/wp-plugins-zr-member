@@ -8,6 +8,10 @@ The ZR Member plugin provides functionality for managing members on your WordPre
 - Edit existing members' details.
 - Delete members from the database.
 
+**Download the Plugin**
+
+    - Download the plugin zip file from the [GitHub repository](https://github.com/zahedur/wp-plugins-zr-member).
+
 ## Installation
 
 1. Download the `zr-member` plugin folder.
