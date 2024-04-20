@@ -1,0 +1,19 @@
+{
+    "name": "user/zr-member",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "autoload": {
+        "psr-4": {
+            "Zr\\Member\\": "includes/"
+        },
+        "files": ["includes/Helper.php"]
+    },
+    "authors": [
+        {
+            "name": "zahedur",
+            "email": "87511400+zahedur@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

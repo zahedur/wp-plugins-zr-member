@@ -1,0 +1,29 @@
+.zr-alert-box {
+    position: absolute;
+    left: 20px;
+}
+
+@media (min-width: 550px) {
+    .zr-alert-box {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}
+
+.alert.alert-success.zr-alert {
+    background: #60d9a2;
+    border-color: #cbefda;
+    box-shadow: 0 0 30px -15px rgb(0 0 0 / 70%);
+}
+
+/* Sticky footer for WordPress admin */
+#wpfooter {
+    position: relative;
+    display: flex;
+    bottom: 0;
+    z-index: 9999; /* Adjust as needed */
+}
+
+.zr-member-wrapper {
+    min-height: 100vh;
+}
